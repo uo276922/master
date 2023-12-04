@@ -35,7 +35,6 @@
         </div>
     </header>
     <main>
-        <div id="resultados"></div>
         <h2>
             ¿Quién soy yo?
         </h2>
@@ -110,7 +109,7 @@
 
                         // Verificar si el término de búsqueda está en el contenido de la página
                         if (contenidoPagina.includes(term)) {
-                            $('#resultados').html('Se encontró la palabra en la página: ' + nombrePagina);
+                            window.location.href = nombrePagina + '.html';
                             encontrado = true;
                             // Puedes redirigir al usuario aquí si es necesario
                             return false; // Salir del bucle
