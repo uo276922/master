@@ -9,6 +9,9 @@ body {
   padding: 0;
   
 }
+.search-bar{
+  padding: 0.8em;
+}
 
 header {
   background-color: #333;
@@ -122,5 +125,25 @@ video {
 video {
   max-width: 100%; /* Hacer que las imágenes y videos sean responsivos */
   height: auto;
+}
+nav {
+  padding: 0.625em;
+  display: flex;
+  flex-direction: column; /* Mostrar los elementos uno debajo del otro */
+  justify-content: center; /* Centrar verticalmente los elementos */
+}
+
+/* Cambiar el estilo de los enlaces del nav solo en dispositivos móviles */
+nav a {
+  color: #FFFF;
+  text-decoration: none;
+  margin: 0.625em 0; /* Agregar espacio vertical entre los elementos */
+  background-color: #333;
+}
+
+nav a:hover {
+  background-color: #003975;
+  color: #fff;
+  padding: 0.625em 1.25em;
 }
 }
