@@ -1,0 +1,74 @@
+Contenido de los documentos:
+La página web está formada por 4 documentos html.
+    index.html: Contiene la información personal y medios de contactos.
+    aficiones.html: Explica mi principal afición que es el fútbol.
+    videojuegos.html: Tabla con un top de mis videojuegos favoritos.
+    series.html: Analizo las series que más me han gustado y cuál es mi favorita.
+
+Estructura:
+La web está construida a partir de 3 hojas de estilo.
+    layaout.css: Hoja que estructura el documento. La estructura de los 4 html es la misma. 
+        Un grid layaout de dos columnas y 4 filas con la siguiente estructura:
+            header header
+            main main
+            section aside
+            footer footer
+        Los documentos de aficiones.html y videojuegos.html no presentan el aside. En estos casos la section
+        o el main ocupa todo el espacio.
+    estilo.css: Colores, márgenes, tipografías... de los documentos.
+    tabla.css: Hoja que solo se aplica en videojuegos.html para dar estilo a la tabla.
+
+Módulos de CSS empleados:
+    estilo.css:
+        Módulo de Tipografía (Typography)
+
+        Módulo de Colores y Fondo (Colors and Backgrounds)
+
+        Módulo de Espaciado (Box Model)
+
+        Módulo de Borde (Borders)
+
+        Módulo de Listas (Lists)
+
+        Módulo de Visualización (Visual Formatting Model)
+
+        Módulo de Texto (Text)
+
+        Módulo de Enlaces (Links)
+
+        Módulo de Alineación (Text Alignment)
+
+        Módulo de Margen y Relleno (Margin and Padding)
+
+    layaout.css:
+        Módulo de Grid Layout (Grid)
+
+        Módulo de Espaciado (Box Model)
+
+        Módulo de Borde (Borders)
+
+    tabla.css:
+        Módulo de Tablas (Tables)
+
+        Módulo de Texto (Text)
+
+        Módulo de Espaciado (Box Model)
+
+//Revisiones tras la presentación:
+    - Modificación de tamaños px por em.
+
+    - Utilización de herencia en hojas de estilo. Indicar que las advertencias que salen
+        son por no duplicar código.
+            Práctica 1: Estilo.css
+                Advertencia en la línea 28: El color se hereda de body en section y main.
+                En [footer a y nav a] se duplica el código por estética. Para mantener del mismo color los enlaces visitados.
+    
+    -Revisión contenido de los aside.
+        En mi caso tengo dos aside, uno con una foto de mi pueblo y otro con un logo de netflix.
+        Es contenido que fuera de la web tendría sentido.
+    
+    -Revisión contraste de colores.
+        Práctica 1
+        Modificación contraste de hover footer y nav. Color más oscuro para contarste con blanco.
+        Práctica 2
+        Modificación de colores de header nav y footer de los textos. No había contarste.
