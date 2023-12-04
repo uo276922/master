@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paginas>
+    <pagina nombre="indice">
+        <contenido>Contenido del índice...</contenido>
+    </pagina>
+    <pagina nombre="futbol">
+        <contenido>Contenido de la página de fútbol...</contenido>
+    </pagina>
+    <pagina nombre="videojuegos">
+        <contenido>Assassins</contenido>
+    </pagina>
+    <pagina nombre="series">
+        <contenido>Contenido de la página de series...</contenido>
+    </pagina>
+</paginas>
