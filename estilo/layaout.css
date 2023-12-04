@@ -1,43 +1,57 @@
 /* Estilo global */
 body {
-    display: grid;
-    grid-template-areas:
-      "header header"
-      "main main"
-      "section aside"
-      "footer footer" ;
-    margin: 0;
-    padding: 0;
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "main main"
+    "section aside"
+    "footer footer" ;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: 1fr 1fr; /* Ajustar el diseño de la cuadrícula para dispositivos móviles */
+}
+
+/* Media query para dispositivos con un ancho máximo de 768px */
+@media only screen and (max-width: 768px) {
+  body {
+      grid-template-areas:
+          "header"
+          "main"
+          "section"
+          "aside"
+          "footer";
+      grid-template-columns: 1fr; /* Cambiar a una sola columna en dispositivos móviles */
   }
-  
- /*Specificity (0,0,1)*/
-  header {
-    grid-area: header;
-    padding: 1.25em;
-  }
-  /*Specificity (0,0,1)*/
-  main{
-    grid-area: main;
-    padding: 1.25em;
-    border: 0.063em solid #ccc;
-  }
-  /*Specificity (0,0,1)*/
-  section{
-    grid-area: section;
-    padding: 1.25em;
-    border: 0.063em solid #ccc;
-  }
+}
 
 /*Specificity (0,0,1)*/
-  aside{
-    grid-area: aside;
-    padding: 1.25em;
-  }
-  
+header {
+  grid-area: header;
+  padding: 1.25em;
+}
+
 /*Specificity (0,0,1)*/
-  footer {
-    grid-area: footer;
-    padding: 1.25em;
-  }
-  
-  
+main {
+  grid-area: main;
+  padding: 1.25em;
+  border: 0.063em solid #ccc;
+}
+
+/*Specificity (0,0,1)*/
+section {
+  grid-area: section;
+  padding: 1.25em;
+  border: 0.063em solid #ccc;
+}
+
+/*Specificity (0,0,1)*/
+aside {
+  grid-area: aside;
+  padding: 1.25em;
+}
+
+/*Specificity (0,0,1)*/
+footer {
+  grid-area: footer;
+  padding: 1.25em;
+}

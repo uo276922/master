@@ -3,7 +3,7 @@
     <pagina nombre="indice">
         <contenido>Contenido del índice...</contenido>
     </pagina>
-    <pagina nombre="futbol">
+    <pagina nombre="aficiones">
         <contenido>Contenido de la página de fútbol...</contenido>
     </pagina>
     <pagina nombre="videojuegos">
