@@ -1,15 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <paginas>
     <pagina nombre="indice">
-        <contenido>Contenido del índice...</contenido>
+        <contenido>¿Quién soy yo?
+            En este primer apartado se detalla información personal y un poco de historia. Tras leerlo deberías de saber quien soy. 
+            Nombre: José
+            Apellidos: Rodríguez Rico
+            Dirección: Bustoburniego Nº1
+            Código postal: 33879
+            Correo Universidad: uo276922@uniovi.es
+            Correo personal: joserrti08@gmail.com
+            Teléfono: 636309604
+            Estudios: Grado en Ingeniería Informática del Software
+            Segunda dirección: Calle Torrevieja Nº7 1B
+            Nací en Oviedo, Asturias, pero siempre he vivido en un Concejo llamado Tineo, el segundo más grande de Asturias. Desde los 3 años a los 18 he ido a clase
+                        al colegio e instituto público de Tineo. Desde el comienzo de la etapa de estudios de la secundaria obligatoria tuve claro que mi pasión era la informática, sobre todo orientada
+                        a la temática de los videojuegos. Al comenzar a estudiar el bachillerato, opté por una modalidad tecnológica, ya que era la que más se aproximaba a mis intereses. Esta etapa finalizó con un gran éxito
+                        al recibir la matrícula de honor en mi insituto junto con otros dos compañeros. En la etapa universitaria consigo finalizar en 4 años todas las asignaturas del grado salvo la presentación del TFG. 
+                        Actualmente me encuentro cursando el máster en Ingeniería Web por la Universidad de Oviedo. 
+            Tineo
+            Vida profesional
+            En cuanto a la vida profesional aún no es muy avanzada. Durante el grado de informática
+                        tuve la oportunidad de realizar prácticas en una empresa llamada UpIntelligence SL. 
+                        Allí estuve realizando las prácticas curriculares durante 1 mes. Tras finalizar estas,
+                        decidí continuar en la misma empresa con las prácticas extracurriculares de 600 horas.
+                        Estas prácticas me han permitido adquirir nuevs habilidades orientadas al mundo laboral.
+            En total, he estado de forma activa durante unos 7 meses. Mi idea es seguir trabajando mientras
+                        curso el máster universitario
+            ¡Gracias por la visita!
+            No olvide contactar ...
+            Twitter
+            LinkedIn
+            Instagram
+        </contenido>
     </pagina>
     <pagina nombre="aficiones">
-        <contenido>Contenido de la página de fútbol...</contenido>
+        <contenido>
+            Aficiones: El fútbol
+            Club Deportivo Tineo
+            Una de mis principales aficiones de toda la vida es el fútbol. Desde pequeño he jugado en el Club Deportivo Tineo. Allí aprendí todo lo relacionado con la forma de jugar 
+                        y conocí a mis actuales amigos.
+            Esta época de mi vida abarca desde los 5 años años de adad a los 19, 
+                        es decir, he jugado en todas las categorías inferiores del equipo.
+            Uno de los grandes éxitos conseguidos en esta etapa ha sido el ascenso a primera infantil con 14 años de edad. Sin embargo, en la temporada siguiente el nivel
+                        de los demás equipos era tan superior que bajamos a segunda con solo 14 puntos.
+            Al acabar la etapa de juvenil con 19 años, comienzo a jugar en el primer equipo del Tineo en la categoría de Regional Preferente. Actualmente continúo en el equipo
+                    disfrutando de jugar con gente que lleva incluso 18 años en esta categoría.
+            En resumen, el fútbol a estado presente en la mayor parte de mi vida. Me ha ayudado
+                        a trabajar en equipo, a entender a los compañeros y a ser un poco más competitivo en
+                        las ocasiones que lo merecen.
+            FC Barcelona
+            Desde que nací en mi casa se ha sido del FC Barcelona, por lo que es obvio que yo no iba ser del Real Madrid. Esta pasión de animar a un equipo de otro lugar de España 
+                        ha sido impulsada sobre todo por mi hermano, al que le encanta el fútbol.
+            A pesar de vivir en Asturias y contar con dos equipos históricos como el 
+                        Real Sporting y el Real Oviedo, la vida me ha conducido hacia otros rumbos.
+                        No obstante, al vivir en Tineo, lejos de las dos ciudades principales, es habitual
+                        ser hincha de equipos como el Bracelona o el Real Madrid.
+            Mis futbolistas favoritos que yo haya visto jugar en el barsa son:
+            Lionel Messi
+            Luis Suárez
+            Neymar Junior
+            Andrés Iniesta
+            Xavi
+            Ferrán Torres
+            Uno de los momentos más felices de mi vida ha sido cuando el barsa gana su 5 champions en el año 2015 de la mano del mejor ataque de todos los tiempos.
+        </contenido>
     </pagina>
     <pagina nombre="videojuegos">
-        <contenido>Assassins</contenido>
+        <contenido>
+            Mis videojuegos favoritos
+            El objetivo de está página es descubrir cuáles son mis videojuegos favoritos
+                        de todos los tiempos. En este top solo se encuentran juegos que yo haya
+                        completado.
+            Actualmente los videojuegos no son una de mis principales actividades debido al escaso tiempo
+                        que dispongo. De todas maneras, desde los 8 años han significado una parte importante en
+                        mi vida
+            Top de Videojuegos
+            Assassin´s creed 2: La hermandad
+            Ubisoft
+            2010
+            The Witcher 3 Wild Hunt 
+            CD Projekt Red
+            2015
+            Elden Ring
+            From Software
+            2022
+            Bloodborne
+            From Software
+            2015
+            Read Dead Redemption 2
+            Rockstar games
+            2018
+            The Elder Scrolls 5: Skyrim
+            Bethesda
+            2011
+        </contenido>
     </pagina>
     <pagina nombre="series">
-        <contenido>Contenido de la página de series...</contenido>
+        <contenido>Mis series favoritas
+            En esta sección voy a listar cuáles han sido las series que mas he disfrutado viendo. Algunas de ellas incluso vistas más de tres veces.
+            Juego de tronos
+            Stranger things
+            Breaking bad
+            Outlander
+            The offcie
+            De todas las series mencionadas anteriormente, la más especiel que he visto ha sido
+                        Juego de Tronos. Esta serie trata sobre la política vivida en un mundo ficticio
+                        ambientado en una etapa medieval alternativa. Juego de tronos ha sido premiada 
+                        con numerosos galardones. Es sin duda una serie muy especial para mucha gente.
+            Pero la mejor serie que he visto y más emociones me ha creado ha sido ...
+            Dónde ver series
+            One Piece
+            One piece es una serie que trata sobre un chico que tiene un sueño, convertirse en el rey de los piratas. Esta tarea no es sencilla y para lograrlo
+                        encuentra durante el viaje una serie de personas que se acaban convirtiendo en sus mejores amigos.
+            A pesar de ser unos dibujos animados, los temas narrados pueden llevar al espectador
+                        al límite. Entre ellos están: el tráfico de armas, la esclavitud, el racismo, la adicción a las
+                        drogas ...
+            Se trata de una serie ambientada en el manga creado por el maestro Eiichiro Oda. El manga y el anime lleva actualmente 24 años en producción y según las 
+                        declaraciones del autor "aún quedan unos 5 años de trabajo"
+        </contenido>
     </pagina>
 </paginas>
