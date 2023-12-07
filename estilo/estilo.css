@@ -47,9 +47,9 @@ p {
 }
 
 ul {
-  
-  list-style: none;
+  list-style-type: disc;
   padding: 0.625em 0;
+  margin-left: 1.25em;
 }
 
 li {
@@ -79,17 +79,7 @@ footer a:hover {
 }
 
 nav {
-  list-style: none;
-  display: flex;
-}
-
-nav ul {
-  display: flex;
-  padding: 0;
-}
-
-nav li {
-  margin-right: 10px;
+  padding: 0.625em;
 }
 
 nav a {
@@ -113,58 +103,47 @@ video {
   display: block; /* Evitar espacio adicional por ser elementos en línea */
 }
 
+/* Media queries para adaptabilidad */
 @media only screen and (max-width: 768px) {
   body {
-    font-size: 14px;
+      font-size: 14px;
   }
 
   header {
-    font-size: 1.2em;
+      font-size: 1.2em;
   }
 
   nav a {
-    padding: 5px;
+      padding: 5px;
   }
 
-  main,
-  aside,
-  section {
-    padding: 1em;
+  main, aside, section {
+      padding: 1em;
   }
 
   img,
-  video {
-    max-width: 100%;
-    height: auto;
-  }
+video {
+  max-width: 100%; /* Hacer que las imágenes y videos sean responsivos */
+  height: auto;
+}
+nav {
+  padding: 0.625em;
+  display: flex;
+  flex-direction: column; /* Mostrar los elementos uno debajo del otro */
+  justify-content: center; /* Centrar verticalmente los elementos */
+}
 
-  nav {
-    padding: 0.625em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    list-style: none;
-  }
+/* Cambiar el estilo de los enlaces del nav solo en dispositivos móviles */
+nav a {
+  color: #FFFF;
+  text-decoration: none;
+  margin: 0.625em 0; /* Agregar espacio vertical entre los elementos */
+  background-color: #333;
+}
 
-  nav a {
-    color: #FFFF;
-    text-decoration: none;
-    margin: 0.625em 0;
-    background-color: #333;
-  }
-
-  nav ul {
-    display: flex;
-    padding: 0;
-  }
-
-  nav li {
-    margin-right: 10px;
-  }
-
-  nav a:hover {
-    background-color: #003975;
-    color: #fff;
-    padding: 0.625em 1.25em;
-  }
+nav a:hover {
+  background-color: #003975;
+  color: #fff;
+  padding: 0.625em 1.25em;
+}
 }
