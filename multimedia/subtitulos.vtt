@@ -1,79 +1,118 @@
-Our project is oriented towards the development and
-0:13
-implementation of a digital twin in the manufacturing process,
-0:17
+WEBVTT
+
+00:00:00.000 --> 00:00:13.000
+Our project is oriented towards the development and implementation of a digital twin in the manufacturing process,
+
+00:00:13.000 --> 00:00:17.000
 especially for the validation
-0:20
+
+00:00:17.000 --> 00:00:20.000
 of the smoking processes of sausages.
-0:25
+
+00:00:20.000 --> 00:00:25.000
 and other cured meat products.
-0:27
+
+00:00:25.000 --> 00:00:27.000
 So one of the main challenges is
-0:30
+
+00:00:27.000 --> 00:00:30.000
 the variability of the production and also food safety control.
-0:36
+
+00:00:30.000 --> 00:00:36.000
 With our solution, the microbiological control
-0:40
+
+00:00:36.000 --> 00:00:40.000
 is better controlled.
-0:43
-Our system allows to predict how many days
-0:49
+
+00:00:40.000 --> 00:00:43.000
+Our system allows predicting how many days
+
+00:00:43.000 --> 00:00:49.000
 are needed for the product to be ready
-0:56
-and safe and free from risk of microbiological contamination.
-1:03
+
+00:00:49.000 --> 00:00:56.000
+and safe and free from the risk of microbiological contamination.
+
+00:00:56.000 --> 00:01:03.000
 Another challenge is the traceability of the product
-1:07
+
+00:01:03.000 --> 00:01:07.000
 through the whole smoking process.
-1:13
+
+00:01:07.000 --> 00:01:13.000
 We have developed several innovations.
-1:16
+
+00:01:13.000 --> 00:01:16.000
 One of the main innovations is the approach
-1:21
+
+00:01:16.000 --> 00:01:21.000
 because it's the first known case of application of a
-1:26
+
+00:01:21.000 --> 00:01:26.000
 digital twin to our traditional food processing.
-1:29
+
+00:01:26.000 --> 00:01:29.000
 Also at a technological and research level,
-1:32
+
+00:01:29.000 --> 00:01:32.000
 we have developed machine-learning models
-1:38
+
+00:01:32.000 --> 00:01:38.000
 to correlate environmental parameters to
-1:42
+
+00:01:38.000 --> 00:01:42.000
 critical control points within our process.
-1:46
+
+00:01:42.000 --> 00:01:46.000
 We are applying these models and algorithms
-1:50
+
+00:01:46.000 --> 00:01:50.000
 to other processes.
-1:55
+
+00:01:50.000 --> 00:01:55.000
 S3FOOD enabled us to perform all these research activities.
-2:01
+
+00:01:55.000 --> 00:02:01.000
 As we are a company, if we don't have funding,
-2:07
+
+00:02:01.000 --> 00:02:07.000
 we're not able to make research.
-2:13
+
+00:02:07.000 --> 00:02:13.000
 So, funding is essential for us to develop new products.
-2:20
+
+00:02:13.000 --> 00:02:20.000
 The next step beyond this project,
-2:24
-we want to install a programme on CO2 and CO2 sensors
-2:31
+
+00:02:20.000 --> 00:02:24.000
+we want to install a program on CO2 and CO2 sensors
+
+00:02:24.000 --> 00:02:31.000
 to monitor the fire consumption and smoke production.
-2:38
+
+00:02:31.000 --> 00:02:38.000
 It will give us more reliability about the process.
-2:45
-and also to install and programme sensors for weight monitoring,
-2:51
+
+00:02:38.000 --> 00:02:45.000
+and also to install and program sensors for weight monitoring,
+
+00:02:45.000 --> 00:02:51.000
 to have a more precise idea about how the process is going
-2:55
+
+00:02:51.000 --> 00:02:55.000
 and make more reliable predictions.
-2:57
+
+00:02:55.000 --> 00:02:57.000
 We are now taking this knowledge we have acquired
-3:01
+
+00:02:57.000 --> 00:03:01.000
 with this project
-3:04
+
+00:03:01.000 --> 00:03:04.000
 - all the knowledge and advice we have had along the way –
-3:08
+
+00:03:04.000 --> 00:03:08.000
 and we are applying it to other projects
-3:11
-related to digital twins and digitalisation
+
+00:03:08.000 --> 00:03:11.000
+related to digital twins and digitalization
