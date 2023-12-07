@@ -19,18 +19,21 @@
 <body>
     <header>
         <h1>Información personal: José Rodríguez Rico</h1>
-        <nav> 
-            <a title="Indice"  href="index.html">Indice</a>
-            <a title="Fútbol" href="aficiones.html">Fútbol</a> 
-            <a title="Videojuegos"  href="videojuegos.html">Videojuegos</a>    
-            <a title="Series"  href="series.html">Series</a> 
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Ir al índice">Indice</a></li>
+                <li><a href="aficiones.html" title="Ir a la sección de Fútbol">Fútbol</a></li>
+                <li><a href="videojuegos.html" title="Ir a la sección de Videojuegos">Videojuegos</a></li>
+                <li><a href="series.html" title="Ir a la sección de Series">Series</a></li>
+            </ul>
         </nav>
         <!-- Barra de búsqueda -->
         <!--Div para posicioanar el buscador en el header, el código se encuentra en la sección script-->
         <div class="search-bar">
-            <form id="search-form">
-                <input type="text" id="busqueda" name="busqueda" placeholder="Busca en la web">
-                <button type="button" id="buscar">Buscar</button>
+            <form id="search-form" role="search">
+                <label for="busqueda" class="visually-hidden">Buscar en la web</label>
+                <input type="text" id="busqueda" name="busqueda" placeholder="Busca en la web" aria-label="Buscar en la web">
+                <button type="button" id="buscar" aria-label="Buscar">Buscar</button>
             </form>
         </div>
     </header>
