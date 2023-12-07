@@ -13,25 +13,17 @@
     <meta name ="keywords" content ="Universidad de Oviedo, Bustoburniego, Tineo, informática" >
     <!--Definición de la ventana gráfica-->
     <meta name ="viewport" content ="width=device-width, initial-scale=1.0" >
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
 
 <body>
     <header>
         <h1>Información personal: José Rodríguez Rico</h1>
         <nav> 
-            <a title="Indice" accesskey="I" tabindex="1" href="index.html">Indice</a>
-            <a title="Fútbol" accesskey="F" tabindex="2" href="aficiones.html">Fútbol</a> 
-            <a title="Videojuegos" accesskey="V" tabindex="3" href="videojuegos.html">Videojuegos</a>    
-            <a title="Series" accesskey="S" tabindex="4" href="series.html">Series</a> 
+            <a title ="Indice" accesskey="I" tabindex="1"  href="index.html">Indice</a>
+            <a title ="Fútbol" accesskey="F" tabindex="2"  href="aficiones.html">Fútbol</a> 
+            <a title ="Videojuegos" accesskey="V" tabindex="3"  href="videojuegos.html">Videojuegos</a>    
+            <a title ="Series" accesskey="S" tabindex="4"  href="series.html">Series</a> 
         </nav>
-        <!-- Barra de búsqueda -->
-        <div class="search-bar">
-            <form id="search-form">
-                <input type="text" id="busqueda" name="busqueda" placeholder="Busca en la web">
-                <button type="button" id="buscar">Buscar</button>
-            </form>
-        </div>
     </header>
     <main>
         <h2>
@@ -88,42 +80,4 @@
     
 
 </body>
-<script>
-    $(document).ready(function () {
-        $('#buscar').on('click', function () {
-            var term = $('#busqueda').val().toLowerCase();
-
-            // Realizar la búsqueda en el archivo XML
-            $.ajax({
-                type: 'GET',
-                url: 'contenido_web.xml',
-                dataType: 'xml',
-                success: function (xml) {
-                    var encontrado = false;
-
-                    // Iterar sobre las páginas en el XML
-                    $(xml).find('pagina').each(function () {
-                        var nombrePagina = $(this).attr('nombre');
-                        var contenidoPagina = $(this).find('contenido').text().toLowerCase();
-
-                        // Verificar si el término de búsqueda está en el contenido de la página
-                        if (contenidoPagina.includes(term)) {
-                            window.location.href = nombrePagina + '.html';
-                            encontrado = true;
-                            // Puedes redirigir al usuario aquí si es necesario
-                            return false; // Salir del bucle
-                        }
-                    });
-
-                    if (!encontrado) {
-                        $('#resultados').html('No se encontraron resultados para la búsqueda: ' + term);
-                    }
-                },
-                error: function () {
-                    alert('Error al cargar el archivo XML');
-                }
-            });
-        });
-    });
-</script>
 </html>
