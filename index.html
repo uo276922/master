@@ -27,11 +27,11 @@
         </nav>
         <!-- Barra de búsqueda -->
         <!--Div para posicioanar el buscador en el header, el código se encuentra en la sección script-->
-        <div class="search-bar">
+        <div class="search-bar" aria-live="polite">
             <form id="search-form" role="search">
-                <label for="busqueda" class="visually-hidden">Buscar en la web</label>
-                <input type="text" id="busqueda" name="busqueda" placeholder="Busca en la web" aria-label="Buscar en la web">
-                <button type="submit" id="buscar" aria-label="Buscar">Buscar</button>
+                <label for="busqueda" class="visually-hidden" id="busqueda-label">Buscar en la web</label>
+                <input type="text" id="busqueda" name="busqueda" placeholder="Busca en la web" aria-labelledby="busqueda-label">
+                <button type="submit" id="buscar" aria-label="Buscar en las webs">Buscar</button>
             </form>
         </div>
     </header>
@@ -77,7 +77,10 @@
         <p>En total, he estado de forma activa durante unos 7 meses. Mi idea es seguir trabajando mientras
             curso el máster universitario
         </p>
-        <video src="multimedia/upintelligence.mp4" controls preload="auto"></video>
+        <video controls preload="auto">
+            <source src="multimedia/upintelligence.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video. Puedes descargar el video haciendo clic <a href="https://www.youtube.com/watch?v=DidsgHreV-Y">aquí</a>.
+        </video>
     </section>
     <footer>
         <h3>¡Gracias por la visita!</h3>
