@@ -98,11 +98,18 @@
     //Para ello se emplea jquery con ajax.
     //Al accioanr el evento del botón buscar
     $(document).ready(function () {
-        $('#buscar').on('click', function () {
-            //Se pone en minúsculas el contenido del buscador
-            var term = $('#busqueda').val().toLowerCase();
+        $('#search-form').on('submit', function (e) {
+            e.preventDefault();
+            realizarBusqueda();
+        });
 
-            // Realiza la búsqueda en el archivo XML
+        $('#buscar').on('click', function () {
+            realizarBusqueda();
+        });
+
+        function realizarBusqueda() {
+            var term = $('#busqueda').val().toLowerCase();
+            
             $.ajax({
                 type: 'GET',
                 url: 'contenido_web.xml',
@@ -110,14 +117,11 @@
                 success: function (xml) {
                     var encontrado = false;
 
-                    // Iterar sobre las páginas en el XML
                     $(xml).find('pagina').each(function () {
                         var nombrePagina = $(this).attr('nombre');
                         var contenidoPagina = $(this).find('contenido').text().toLowerCase();
 
-                        // Verificar si el término de búsqueda está en el contenido de la página
                         if (contenidoPagina.includes(term)) {
-                            //Redirije a la página dónde se encunetra la igualdad
                             window.location.href = nombrePagina + '.html';
                             encontrado = true;
                             return false;
@@ -125,14 +129,14 @@
                     });
 
                     if (!encontrado) {
-                        $('#resultados').html('No se encontraron resultados para la búsqueda: ' + term);
+                        alert('No se encontraron resultados para la búsqueda: ' + term);
                     }
                 },
                 error: function () {
                     alert('Error al cargar el archivo XML');
                 }
             });
-        });
+        }
     });
 </script>
 </html>
