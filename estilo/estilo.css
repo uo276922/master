@@ -86,7 +86,8 @@ nav a {
   color: #FFFF;
   text-decoration: none;
   margin-right: 0.625em;
-  background-color: #333;
+  background-color: #0059ff;
+  padding: 0.400em 0.75em;
 }
 
 nav a:hover {
@@ -138,7 +139,9 @@ nav a {
   color: #FFFF;
   text-decoration: none;
   margin: 0.625em 0; /* Agregar espacio vertical entre los elementos */
-  background-color: #333;
+  background-color: #0059ff;
+  padding: 0.400em 0.75em;
+
 }
 
 nav a:hover {
